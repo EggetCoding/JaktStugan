@@ -1,0 +1,104 @@
+[
+    {
+        "Subject": "Skogsdjur",
+        "header" : "Allmänt om skogsdjur",
+        "info": " Skogsdjur är i almänt mer vakna på morgonar och sena kvällar. Det är de bästa tiderna att jaga på. Tyngre kalibrar kan behövas för att lätt kunna penetrera genom dess tjocka skinn, oftast növädigt med klass 1 men minst klass 2. Många brukar tala om att det roligaste är just att jaga skogsdjur. De är större och man får använda starkare kalibrar. Men eftersom man inte vill utrota skogsdjuren då de förökar sig mer sällan än andra mindre djur så har man speciella tider runt året då man får jaga dem. Detta är för att inte störa parnings säsongen.",
+        "image": "images/skogsDjur.jpeg",
+        "header2" : "Viktigt att veta",
+        "info2": "De flesta större skogsdjur är mer vakna och aktiva på natten. Detta kan vara ett problem eftersom det är ytterst få djur som får jagas dygnet runt. Med detta kan det ske att det tar väldigt långt tid innan man får napp på dagen berodende på andra faktorer. De är då även viktigt att veta vilka djur man får lockmata medan man jagar. Detta är inte tillåtet att göra på många djur så man får ta reda på det själv innan då det ändras hela tiden vilka djur man får och inte får.",
+        "image2": "images/skogsHjort.png"
+    },
+    {
+        "Subject": "Smådjur",
+        "header" : "Smådjur",
+        "info": "Att jaga småvilt kan vara både svårare och lättare än att jaga stort. Det är inte lika stora och lätta att upptäcka som de stora skogsdjuren, men det finns mycket mycket fler av smådjur i skogen. Plus så hör inte smådjuren från lika långt håll och flyr inte lika lätt. Klass 3 givär brukar räcka för att kunna döda ett litet djur. Om man använder högre än detta kan leda till förstörelse av köttet och skinnet. Givär som är lägre än klass 3 kan leda till att djuret inte dör direkt och kan leda till att djuret får lida. Detta är inte tillåtet och kan leda till böter.",
+        "image": "images/småDjur.jpg",
+        "header2" : "Inför jakten",
+        "info2": "Det som är med småvilt är att eftersom de inte har en bestämd parningscykel och får flera kullar om året har det ingen bestämd jakt tid runt året. Detta då eftersom de inte är lika lätta att utrota då en hare kan få upp till 5 ungar per kull. Hagelgivär är det vanligaste att jaga med då du får ett större träffområde och det är lättare att pricka djuret. Det är även lättare att döda djuret med hagelgivär då det är flera kulor som träffar djuret samtidigt. Det är inte nödvändigt med hagelgivär men en stark rekomendation. Exempel på smådjuren kan vara; hare, hermelin, räv, grävling, mink, bäver, råtta, mus, skogsmus, skogsråtta, ekorre, vessla, iller, igelkott, mår, mårdhund, och utter.",
+        "image2": "images/småHare.jpg"
+    },
+    {
+        "Subject": "Fåglar",
+        "header" : "Fåglar",
+        "info": "Fåglar är en typ av djur som är vanligast att jaga. De jagas ofta med hagelgivär som gör det lättare att pricka målet. Eftersom det inte är så mycket ätbart på en fågel jagas de mest som för hobby eller för skyddsjakt.",
+        "image": "images/fåglar.jpg",
+        "header2" : "Att tänka på",
+        "info2": "När man jagar fåglar är det viktigt att tänka på vad för fågel man egentligen skjuter då många arter på långt avstång ser väldigt lika ut. Som dessa bilder är olika arter. En vanlig jaktmetod är skytte med gevär eller hagel, där jägaren avfyrar ett skott mot fågeln för att döda den. Skytte med hagel används ofta för att jaga mindre fågelarter, som exempelvis ripor och fasaner, medan skytte med gevär är mer lämpat för större fåglar, såsom änder och gäss. För att skydda vissa fågelarter i Sverige, har regeringen infört strikta regler och begränsningar för jakten på fåglar. Jägare måste ha licens för att få jaga, och det finns säsongsmässiga begränsningar och kvoter på antalet fåglar som får jagas.",
+        "image2": "images/fåglarvit.jpg"
+    },
+    {
+        "Subject": "Typer av jakt",
+        "header" : "Typer av jakt",
+        "info": "Det finns många olika typer av jakt. Olika typer av jakt atraherar olika personer med olika personligheter. Vissa taktiker går ut på att vänta och vara tyst medan andra går utpå att skräma ut djuren ur en vissa dunge eller skog. Skytte med gevär eller hagel är en vanlig jaktmetod som används för att jaga både stora och små vilda djur, såsom hjort, älg, räv, hare och fågel. Skytte med hagel är ofta används för att jaga fåglar medan skytte med gevär är lämpligt för större djurarter. Fällor och nät är en annan vanlig jaktmetod som används för att fånga små vilda djur som till exempel mink, räv och sork. Fällorna och näten placeras ofta ut på platser där djuren vanligtvis passerar eller samlas.",
+        "image": "images/typerAvJakt.jpg",
+        "header2" : "Jakten",
+        "info2": "Jakt med hund är en populär jaktmetod i Sverige, där jakthunden hjälper till att spåra och hitta vilda djur. Jakt med hund används ofta för att jaga mindre djur som till exempel hare, räv och grävling.En annan jaktmetod som används i Sverige är jakt med lockpipa eller rovfågel. Lockpipa används för att locka fram djuren och kan vara särskilt effektivt vid jakt på fåglar. Jakt med rovfågel innebär att en tränad rovfågel, som en hök eller en falk, används för att jaga bytet. Oavsett vilken jaktmetod som används i Sverige, är det viktigt att jägare följer bestämmelserna för jakt och skydd av vilda djur och växter. Jägare bör också ta hänsyn till djurens välbefinnande och miljön där jakten utförs och utföra jakten på ett ansvarsfullt och etiskt sätt.",
+        "image2": "images/typerAvJaktHund.jpg"
+    },
+    {
+        "Subject": "Jakttider",
+        "header" : "Jakttider",
+        "info": "I Sverige finns det regler och tider för när jakt på vilda djur är tillåten. Jaktperioderna är ofta anpassade efter djurens fortplantning, migration och födointag, samt för att säkerställa att populationerna inte minskar på ett ohållbart sätt. Nedan är några exempel på olika jakttider i Sverige. Hjort- och älgjakten är en av de mest populära jakterna i Sverige och äger rum under höst- och vintermånaderna, vanligtvis mellan augusti och januari. Tiderna kan dock variera mellan olika regioner och kommuner. Jakt på småvilt, som hare, räv, grävling och fasan, är vanligtvis tillåtet från början av september till slutet av februari. I vissa områden finns det dock särskilda begränsningar för jakten på vissa djurarter.",
+        "image": "images/jakttider.jpg",
+        "header2" : "För oss alla",
+        "info2": "Fågeljaktperioden sträcker sig också från början av september till slutet av februari. Vissa fågelarter har dock specifika jakttider, till exempel änder och gäss som har en särskild jaktperiod som sträcker sig från oktober till december. Jakt på rovdjur, som björn, varg och lo, är strikt reglerad i Sverige. Jakten på dessa djurarter är tillåten under en begränsad period på hösten och vintern, och endast ett visst antal djur får jagas. Det är viktigt att jägare känner till och följer jakttiderna och andra regler för jakt i Sverige för att säkerställa att jakten utförs på ett hållbart och ansvarsfullt sätt. Detta hjälper till att skydda både de vilda djurpopulationerna och miljön där jakten äger rum.",
+        "image2": "images/jakttiderVinter.jpg"
+    },
+    {
+        "Subject": "Hundar",
+        "header" : "Hundar",
+        "info": "I Sverige finns det flera olika jakthundsraser som används för jakt. Jakthundar har en viktig roll i jaktprocessen eftersom de kan hjälpa jägare att spåra, hitta och apportera vilt. Nedan är några exempel på olika jakthundsraser i Sverige. Taxen är en populär jakthund i Sverige och är känd för sin förmåga att spåra småvilt som hare och räv. Taxen är en envis hund som kan arbeta självständigt, men också fungera bra i grupp. Stövare är en annan vanlig jakthundsraser i Sverige. Dessa hundar är utmärkta på att följa spår och används ofta vid jakt på hjort och älg. Stövare är också en mycket mångsidig ras som kan användas för att jaga andra småvilt, inklusive hare och räv.",
+        "image": "images/jaktHund.jpg",
+        "header2" : "Bra för sökning",
+        "info2": "Retrieverraserna, inklusive golden retriever och labrador retriever, används ofta för jakt på fågel, särskilt änder och gäss. Dessa hundar är kända för sin förmåga att apportera vilt och har en mjuk mun vilket innebär att de kan hämta bytet utan att skada det. Setterraser, inklusive engelsk setter och irländsk setter, används ofta för jakt på fågel och fjäderfä. Dessa hundar har en god luktsinne och kan spåra fåglar och signalera när de har hittat ett byte. Oavsett vilken jakthund som används, är det viktigt att hundarna tränas ordentligt och att jägaren känner till hundens styrkor och svagheter. Detta hjälper till att säkerställa en säker och effektiv jaktupplevelse för både hund och jägare.",
+        "image2": "images/jaktHundBett.jpg"
+    },
+    {
+        "Subject": "Instruktioner",
+        "header" : "Instruktioner",
+        "info": "Att kunna stycka ett djur är en viktig färdighet för jägare, och kan vara en utmanande process för den som inte har gjort det tidigare. Här följer några grundläggande instruktioner för hur man kan stycka ett djur på ett säkert och effektivt sätt. Placera djuret på en stabil yta, gärna med huvudet högre än bakdelen, för att underlätta blodflödet. Skär upp djuret längs buken, från anus upp till bröstkorgen. Var försiktig så att du inte skär igenom tarmarna och kontrollera att maginnehållet inte kommer i kontakt med köttet. Ta bort tarmarna från djuret och skölj noga med vatten. Dela djuret i hälften genom att såga eller skära genom ryggraden. Detta gör det enklare att hantera och stycka. Skär bort köttet från benen och följ musklerna för att separera de olika delarna av köttet. Använd en vass kniv och var försiktig så att du inte skär dig själv eller skadar köttet. Ta bort eventuella senor och fett från köttet. Skär köttet i mindre bitar och förvara i lämpliga förpackningar i kyl eller frys.",
+        "image": "images/instruktioner.jpg",
+        "header2" : "Viktigt",
+        "info2": "Det är viktigt att följa goda hygienrutiner när man hanterar kött för att minimera risken för bakterier och andra föroreningar. Tvätta händerna noga före och efter styckning och se till att verktyg och arbetsytor är rena och desinficerade. Det är också viktigt att köttet förvaras på rätt sätt för att undvika att det blir dåligt. Förvara köttet i kyl eller frys och se till att det är väl förpackat. Om du inte planerar att äta köttet inom en snar framtid, kan det vara en bra idé att frysa det för att förlänga hållbarheten. Det är också viktigt att köttet förvaras på rätt sätt för att undvika att det blir dåligt. Förvara köttet i kyl eller frys och se till att det är väl förpackat. Om du inte planerar att äta köttet inom en snar framtid, kan det vara en bra idé att frysa det för att förlänga hållbarheten.",
+        "image2": "images/Buköppnare.jpg"
+    },
+    {
+        "Subject": "Risker",
+        "header" : "Risker",
+        "info": "Styckning av ett djur kan vara en farlig process som innebär flera potentiella risker. Att hantera en vass kniv eller såg, samtidigt som man arbetar med ett stort och tungt djur, kan vara en utmanande uppgift för den som inte har erfarenhet eller rätt utrustning. Rått kött kan innehålla farliga bakterier som kan leda till allvarliga infektioner. Det är viktigt att tvätta händerna och använda rena verktyg och arbetsytor för att minimera risken för föroreningar. Trikiner är en typ av parasit som kan finnas i viltkött och kan orsaka allvarliga sjukdomar hos människor. Det är viktigt att köttet tillagas ordentligt för att döda eventuella trikiner. Det är också viktigt att köttet förvaras på rätt sätt för att undvika att det blir dåligt. Förvara köttet i kyl eller frys och se till att det är väl förpackat. Om du inte planerar att äta köttet inom en snar framtid, kan det vara en bra idé att frysa det för att förlänga hållbarheten.",
+        "image": "images/risker.jpg",
+        "header2" : "Var säker!",
+        "info2": "Det ostast bäst att en proffisionell slaktare tar hand om djuret men om man ska göra det själv är det viktigt att man vet vad man gör. Det är viktigt att jägare och andra som arbetar med att stycka djur är medvetna om dessa risker och vidtar lämpliga säkerhetsåtgärder för att minimera risken för olyckor och skador. Det kan vara viktigt att ha tillgång till adekvat skyddsutrustning och att ha en annan person närvarande som kan hjälpa till vid behov.",
+        "image2": "images/risker.jpg"
+    },
+    {
+        "Subject": "Klasser",
+        "header" : "Klasser",
+        "info": "När man talar om vapen så delar man upp vapnerna i olika klasser beroende på hur starkt träffkraft. Det finns mellan klass 4 - 1 där 4 är svagast. Klass 4 kan nästan räknas som ett luft givär då ammunitioner är så svag. Ta det inte fel då ammunitiionen fortfarande är farlig. Detta är givär som 22ln vapen och används för att jaga de allra minsta. Klass 3 givär är givär som hagelgivär och 6,5x55. Detta är givär som används för att jaga småvilt och större vilt. Klass 2 givär är givär som 30-06 och 9,3x62. Detta är givär som används för att jaga större vilt som vildsvin och hjort. Klass 1 givär är givär som 375 H&H och 416 Rigby. Detta är givär som används för att jaga större vilt som älg och björn.",
+        "image": "images/klasser.jpg",
+        "header2" : "Rekomendationer",
+        "info2": "Det är bra att ha en plan redan innan man går ut och jagar. Detta är för att olika arter behövs olika klasser. Man kan ta ett klass 1 vapen så får man jaga allt men för småvilt kommer köttet att förstöras. Det är bra att ha en plan för vad man ska jaga. Då kan man anpassa sig vad man ska har för vapen och utrustning redan på plats och inte ångrar sig där.",
+        "image2": "images/klasserHagel.jpg"
+    },
+    {
+        "Subject": "Kalibrar",
+        "header" : "Kalibrar",
+        "info": "Kalibrar är måtten på skott och hylsor till skyttevapen. Det är dessa som bestämmer klassen på ett vapen beronde på vad vapnet kan skjuta för kulor. Större kullor har mer anslagsenergi och högre utgångshastighet då det får plats mera krut i hylsan. Vilka kalibrar som är lagliga måste tittas upp innan då vissa ammunitioner är militärklassade och får inte anvädas för jakt.",
+        "image": "images/kalibrar.jpg",
+        "header2" : "",
+        "info2": "",
+        "image2": "images/kaliberkula.jpg"
+    },
+    {
+        "Subject": "Licenser",
+        "header" : "Licenser",
+        "info": "För att innehava en vapen licens behöver man en anledning för att äga vapen. Detta kan vara som i detta fall att man har jägarexamen eller som i andra att man är medlem i pistolklubb. Hursom helst så får man inte införskaffa sig ett vapen utan att få det godkänt av polisen. Detta är ifrom av en vapen licens. Polisen vill veta hur många vapen vi i sverige har och att inte allmänt folk har dem därför är vapen låst bakom detta.",
+        "image": "images/licenser.jpg",
+        "header2" : "Hur man ska göra",
+        "info2": "När du ska fylla i en ansökan om vapen licens vill polisen veta till vilket syfte. Vilken kaliber och serienummer på vapnet. Detta är för att polisen ska kunna spåra vapen innehavaren om den inte sköter sig. Det är samma sak för om du ska sälja ett vapen så ska du ha koll på att den du säljer till har vapen licens för det vapnet. Detta är för att du inte ska bli ansvarig för vad den personen gör med vapnet.",
+        "image2": "images/kalibrar.jpg"
+    }
+    
+]
+
+

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Jaktstugan</title>
+</head>
+<body>
+    
+    <div class="topsection">  
+        <div style="display: flex; justify-content: center; text-align: center;">
+            <div class="hjortImg" style="height: 15vh;">
+                <img src="images/HjortIcon.png" alt="hjort" class="topimg" onclick="Home()">
+            </div>
+
+            <h1>
+                Jaktstugan
+            </h1>
+        </div>
+        <section style="padding-right: 70px; display: flex; flex-direction: column; justify-content: flex-start;">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Sök..." style="width: 150px;">
+
+            <ul id="myUL">
+                <li><a href="DjurInfo.html">Djur</a></li>
+                <li><a href="VapenInfo.html">Vapen</a></li>
+            
+                <li><a href="SlaktInfo.html">Slakt</a></li>
+                <li><a href="JaktInfo.html">Jakt</a></li>
+            
+                <li onclick="ChangeSub(9)"><a >Klasser</a></li>
+                <li onclick="ChangeSub(11)"><a href="#">Licener</a></li>
+                <li onclick="ChangeSub(10)"><a href="#">Kalibrar</a></li>
+
+                <li onclick="ChangeSub(1)"><a >Skogsdjur</a></li>
+                <li onclick="ChangeSub(2)"><a href="#">Smådjur</a></li>
+                <li onclick="ChangeSub(3)"><a href="#">Fåglar</a></li>
+
+                <li onclick="ChangeSub(4)"><a >Typer av jakt</a></li>
+                <li onclick="ChangeSub(5)"><a href="#">Jakttider</a></li>
+                <li onclick="ChangeSub(6)"><a href="#">Hundar</a></li>
+
+                <li onclick="ChangeSub(7)"><a >Slakt instruktioner</a></li>
+                <li onclick="ChangeSub(8)"><a href="#">Risker för slakt</a></li>
+                <li><a href="store.html">Affär</a></li>
+            </ul>
+        </section>
+        
+    </div>
+
+
+
+
+
+
+    <div style="display: flex; justify-content: start; height: 5vh; background-color: white; align-items: center;">
+        <div class="headerbuttons">
+            <a href="infopage.html">
+                Läroboken
+            </a>
+        </div>
+        <div class="headerbuttons">
+            <a href="store.html">
+                Affär
+            </a>
+        </div>
+
+    </div>
+
+
+        
+        <!--Information text-->
+        <div class="jsonCode">
+            <div class="infoheader">
+                <div>
+                    <h1 id="SubjectHeader">
+                        SkogsDjur
+                    </h1>
+                </div>
+            </div>
+
+            <div class="textChunk">
+                <div>
+                    <h1 id="header">
+                        Lost Connection
+                    </h1>
+                    <p id="info">
+                        unavailable
+                    </p>
+                </div>
+                <img id="photo" src="" alt="" style=" width:500px; height:400px; margin-top: 20px; margin-bottom: 20px; margin-left: 20px; object-fit: contain;">
+            </div>
+
+            <div class="textChunk">
+                <div>
+                    <h1 id="header2">
+                        Lost Connection
+                    </h1>
+                    <p id="info2">
+                        unavailable
+                    </p>
+                </div>
+                <img id="photo2" src="" alt="" style=" width:500px; height:400px; margin-top: 20px; margin-bottom: 20px; margin-left: 20px; object-fit: contain;">
+            </div>
+        </div>
+
+
+       
+        
+
+
+    </div>
+
+    <div class="footer">
+        <div style="display: flex; flex-direction: column;">
+            <div>
+                <img src="images/HjortIcon.png" alt="hjort" style="width: 60px; height: 60px;">
+                <h1 style="display: flex; flex-direction: column;">
+                    Jaktstugan©
+
+                    <div style="display: flex; flex-direction: column; ">
+
+                    </div>
+                </h1>
+            </div>
+            <div class="footerNotesHolder">
+                <ul class="footerNotes">
+                    <h1>
+                        Kontakt
+                    </h1>
+                    <h2>
+                        jaktstugan@gmail.com
+                    </h2>
+                    <h2>
+                        +46 76 856 27 85
+                    </h2>
+                    <h2>
+                        Uppsala Polacksback 72 
+                    </h2>
+                </ul>
+                <ul class="footerNotes">
+                    <h1>Om Oss</h1>
+                    <h3 onclick="Book()">Läroboken</h3>
+                    <h3 onclick="Store()">Affär</h3>
+                </ul>
+
+                <ul class="footerNotes">
+                    <h1>Skribent</h1>
+                    <h2>Edward Lunden</h2>
+                    <h2>Källor</h2>
+                </ul>
+
+            </div>
+        </div>
+        <div>
+            <div class="footerimg">
+
+            </div>
+        </div>
+        
+    </div>
+
+    
+
+    <script>
+
+
+        function getParameter(parameter){
+            let parameters = new URLSearchParams(window.location.search);
+            return parameters.get(parameter);
+        }
+
+        let parameters = new URLSearchParams(window.location.search);
+        id = parameters.get("id") -1;
+
+        console.log(id);
+
+        
+        fetch("info.json")
+        .then(response => response.json())
+        .then(data => {
+        const subject = data[id];
+        console.log(data[id]);
+
+        const subjectContainer = document.querySelector(".jsonCode");
+        subjectContainer.querySelector("#header").innerHTML = subject.header;
+        subjectContainer.querySelector("#info").innerHTML = subject.info; 
+        subjectContainer.querySelector("#photo").src = subject.image;   
+        subjectContainer.querySelector("#header2").innerHTML = subject.header2;
+        subjectContainer.querySelector("#info2").innerHTML = subject.info2; 
+        subjectContainer.querySelector("#photo2").src = subject.image2;  
+        document.getElementById("SubjectHeader").innerHTML = subject.Subject;
+        })
+        
+
+
+        window.onload = hide;
+
+function hide(){
+    var ul = document.getElementById("myUL");
+    var li = ul.getElementsByTagName('li');
+    for (i = 0; i < li.length; i++) {
+        li[i].style.display = "none";
+    }
+}
+
+function Home(){
+    window.location.href = "index.html";
+}
+
+function Djur(){
+    window.location.href = "DjurInfo.html";
+}
+
+function Jakt(){
+    window.location.href = "JaktInfo.html";
+}
+
+function Slakt(){
+    window.location.href = "SlaktInfo.html";
+}
+
+function Vapen(){
+    window.location.href = "VapenInfo.html";
+}
+
+function Book(){
+    window.location.href = "infopage.html";
+}
+
+function Store(){
+    window.location.href = "store.html";
+}
+
+function SkogsDjur(){
+    window.location.href = "skogsDjur.html?id=1";
+}
+
+function ChangeSub(id){
+    window.location.href = "subject.html?id=" + id;
+}
+
+
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    if(filter == ""){
+        li[i].style.display = "none";
+    }
+    else{
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+        } else {
+        li[i].style.display = "none";
+        }
+    }
+        
+  }
+}
+
+function Purchase(){
+    window.location.href = "Purchase.html";
+  }
+
+function Bought(){
+    alert("Ditt paket är påväg!");
+    alert("En faktura kommer skickas till din adress");
+    window.location.href = "index.html";
+}
+    </script>
+
+</body>
+</html>

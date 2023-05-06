@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Jaktstugan</title>
+</head>
+<body>
+    
+    <div class="topsection">  
+        <div style="display: flex; justify-content: center; text-align: center;">
+            <div class="hjortImg" style="height: 15vh;">
+                <img src="images/HjortIcon.png" alt="hjort" class="topimg" onclick="Home()">
+            </div>
+
+            <h1>
+                Jaktstugan
+            </h1>
+        </div>
+        <section style="padding-right: 70px; display: flex; flex-direction: column; justify-content: flex-start;">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Sök..." style="width: 150px;">
+
+            <ul id="myUL">
+                <li><a href="DjurInfo.html">Djur</a></li>
+                <li><a href="VapenInfo.html">Vapen</a></li>
+            
+                <li><a href="SlaktInfo.html">Slakt</a></li>
+                <li><a href="JaktInfo.html">Jakt</a></li>
+            
+                <li onclick="ChangeSub(9)"><a >Klasser</a></li>
+                <li onclick="ChangeSub(11)"><a href="#">Licener</a></li>
+                <li onclick="ChangeSub(10)"><a href="#">Kalibrar</a></li>
+
+                <li onclick="ChangeSub(1)"><a >Skogsdjur</a></li>
+                <li onclick="ChangeSub(2)"><a href="#">Smådjur</a></li>
+                <li onclick="ChangeSub(3)"><a href="#">Fåglar</a></li>
+
+                <li onclick="ChangeSub(4)"><a >Typer av jakt</a></li>
+                <li onclick="ChangeSub(5)"><a href="#">Jakttider</a></li>
+                <li onclick="ChangeSub(6)"><a href="#">Hundar</a></li>
+
+                <li onclick="ChangeSub(7)"><a >Slakt instruktioner</a></li>
+                <li onclick="ChangeSub(8)"><a href="#">Risker för slakt</a></li>
+                <li><a href="store.html">Affär</a></li>
+            </ul>
+        </section>
+        
+    </div>
+
+    <div style="display: flex; justify-content: start; height: 5vh; background-color: white; align-items: center;">
+        <div class="headerbuttons">
+            <a href="infopage.html">
+                Läroboken
+            </a>
+        </div>
+        <div class="headerbuttons">
+            <a href="store.html">
+                Affär
+            </a>
+        </div>
+
+    </div>
+
+    <div class="infoheader">
+        <div style="width: 100%;">
+            <h1>
+                Checkout
+            </h1>
+        </div>   
+
+       
+    </div>
+
+    <div class="inputHolder">
+        Förnamn
+        <input type="text" placeholder="First name..." style="width: 300px;">
+        Efternamn
+        <input type="text" placeholder="Last name..." style="width: 300px;">
+        Adress
+        <input type="text" placeholder="Adress..." style="width: 300px;">
+    </div>
+    
+    <div style="width: 100%; height: 40px; "class="buyButton">
+        <a onclick="Bought()">
+            Köp
+        </a>
+    </div>
+   
+
+    <script src="script.js"></script>
+
+</body>
+</html>

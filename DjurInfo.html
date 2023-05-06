@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Jaktstugan</title>
+</head>
+<body>
+    
+    <div class="topsection">  
+        <div style="display: flex; justify-content: center; text-align: center;">
+            <div class="hjortImg" style="height: 15vh;">
+                <img src="images/HjortIcon.png" alt="hjort" class="topimg" onclick="Home()">
+            </div>
+
+            <h1>
+                Jaktstugan
+            </h1>
+        </div>
+        <section style="padding-right: 70px; display: flex; flex-direction: column; justify-content: flex-start;">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Sök..." style="width: 150px;">
+
+            <ul id="myUL">
+                <li><a href="DjurInfo.html">Djur</a></li>
+                <li><a href="VapenInfo.html">Vapen</a></li>
+            
+                <li><a href="SlaktInfo.html">Slakt</a></li>
+                <li><a href="JaktInfo.html">Jakt</a></li>
+            
+                <li onclick="ChangeSub(9)"><a >Klasser</a></li>
+                <li onclick="ChangeSub(11)"><a href="#">Licener</a></li>
+                <li onclick="ChangeSub(10)"><a href="#">Kalibrar</a></li>
+
+                <li onclick="ChangeSub(1)"><a >Skogsdjur</a></li>
+                <li onclick="ChangeSub(2)"><a href="#">Smådjur</a></li>
+                <li onclick="ChangeSub(3)"><a href="#">Fåglar</a></li>
+
+                <li onclick="ChangeSub(4)"><a >Typer av jakt</a></li>
+                <li onclick="ChangeSub(5)"><a href="#">Jakttider</a></li>
+                <li onclick="ChangeSub(6)"><a href="#">Hundar</a></li>
+
+                <li onclick="ChangeSub(7)"><a >Slakt instruktioner</a></li>
+                <li onclick="ChangeSub(8)"><a href="#">Risker för slakt</a></li>
+                <li><a href="store.html">Affär</a></li>
+            </ul>
+        </section>
+        
+    </div>
+
+
+    
+    <div style="display: flex; justify-content: start; height: 5vh; background-color: white; align-items: center;">
+        <div class="headerbuttons">
+            <a href="infopage.html">
+                Läroboken
+            </a>
+        </div>
+        <div class="headerbuttons">
+            <a href="store.html">
+                Affär
+            </a>
+        </div>
+
+    </div>
+
+    <div class="infoheader">
+        <div>
+            <h1>
+                Djur
+            </h1>
+        </div>       
+    </div>
+
+    <div class="SubjectHolder">
+        <div class="backgroundImage" style="background-image: url('images/skogsDjur.jpeg');" onclick="ChangeSub(1)">
+            <h2>
+                Skogsdjur
+            </h2>
+        </div>
+
+        <div class="backgroundImage" style="background-image: url('images/småDjur.jpg');" onclick="ChangeSub(2)">
+            <h2>
+                Smådjur
+            </h2>
+        </div>
+
+        <div class="backgroundImage" style="background-image: url('images/fåglar.jpg');" onclick="ChangeSub(3)">
+            <h2>
+                Fåglar
+            </h2>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div style="display: flex; flex-direction: column;">
+            <div>
+                <img src="images/HjortIcon.png" alt="hjort" style="width: 60px; height: 60px;">
+                <h1 style="display: flex; flex-direction: column;">
+                    Jaktstugan©
+
+                    <div style="display: flex; flex-direction: column; ">
+
+                    </div>
+                </h1>
+            </div>
+            <div class="footerNotesHolder">
+                <ul class="footerNotes">
+                    <h1>
+                        Kontakt
+                    </h1>
+                    <h2>
+                        jaktstugan@gmail.com
+                    </h2>
+                    <h2>
+                        +46 76 856 27 85
+                    </h2>
+                    <h2>
+                        Uppsala Polacksback 72 
+                    </h2>
+                </ul>
+                <ul class="footerNotes">
+                    <h1>Om Oss</h1>
+                    <h3 onclick="Book()">Läroboken</h3>
+                    <h3 onclick="Store()">Affär</h3>
+                </ul>
+
+                <ul class="footerNotes">
+                    <h1>Skribent</h1>
+                    <h2>Edward Lunden</h2>
+                    <h2>Källor</h2>
+                </ul>
+
+            </div>
+        </div>
+        <div>
+            <div class="footerimg">
+
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>

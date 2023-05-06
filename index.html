@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Jaktstugan</title>
+</head>
+<body>
+    
+    <div class="topsection">  
+        <div style="display: flex; justify-content: center; text-align: center;">
+            <div class="hjortImg" style="height: 15vh;">
+                <img src="images/HjortIcon.png" alt="hjort" class="topimg" onclick="Home()">
+            </div>
+
+            <h1>
+                Jaktstugan
+            </h1>
+        </div>
+        <section style="padding-right: 70px; display: flex; flex-direction: column; justify-content: flex-start;">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Sök..." style="width: 150px;">
+
+            <ul id="myUL">
+                <li><a href="DjurInfo.html">Djur</a></li>
+                <li><a href="VapenInfo.html">Vapen</a></li>
+            
+                <li><a href="SlaktInfo.html">Slakt</a></li>
+                <li><a href="JaktInfo.html">Jakt</a></li>
+            
+                <li onclick="ChangeSub(9)"><a >Klasser</a></li>
+                <li onclick="ChangeSub(11)"><a href="#">Licener</a></li>
+                <li onclick="ChangeSub(10)"><a href="#">Kalibrar</a></li>
+
+                <li onclick="ChangeSub(1)"><a >Skogsdjur</a></li>
+                <li onclick="ChangeSub(2)"><a href="#">Smådjur</a></li>
+                <li onclick="ChangeSub(3)"><a href="#">Fåglar</a></li>
+
+                <li onclick="ChangeSub(4)"><a >Typer av jakt</a></li>
+                <li onclick="ChangeSub(5)"><a href="#">Jakttider</a></li>
+                <li onclick="ChangeSub(6)"><a href="#">Hundar</a></li>
+
+                <li onclick="ChangeSub(7)"><a >Slakt instruktioner</a></li>
+                <li onclick="ChangeSub(8)"><a href="#">Risker för slakt</a></li>
+                <li><a href="store.html">Affär</a></li>
+            </ul>
+        </section>
+        
+    </div>
+
+    <div style="display: flex; justify-content: start; height: 5vh; background-color: white; align-items: center;">
+        <div class="headerbuttons">
+            <a href="infopage.html">
+                Läroboken
+            </a>
+        </div>
+        <div class="headerbuttons">
+            <a href="store.html">
+                Affär
+            </a>
+        </div>
+
+    </div>
+
+    <div class="mainimage">
+        <h1 style="background-color: rgba(188, 188, 188, 0.65);">
+            Det är aldrig för sent att bli jägare
+        </h1>
+        <a href="https://jagareforbundet.se/utbildning/jagarexamen/" style="background-color: orange;">
+            Börja Nu
+        </a>
+    </div>
+
+    <div style="display: flex; justify-content: center; height: 3vh; background-color: gray; margin-top: 15px; margin-bottom: 2vh;" ></div>
+
+    <div class="booksection">
+
+        <h1 style="position: absolute; background-color: black; left: 4%; top: 100%; color: white; padding: 1%; border-radius: 5px;">
+            Jaktens Syfte
+        </h1>
+
+        <div class="infopicture">
+            <a href="infopage.html">
+                Läs Mer
+            </a>
+        </div>
+
+        <div class="infotext">
+            <img src="images/bookicon.png" alt="">
+            <h2>
+                LäroBoken
+            </h2>
+            <p>
+                Lärobokens syfte är för nybörjare som vill börja med jakt med inga tidigare erfarenheter. Men för dig som veteran kan du även fräsha upp minnet. Du kan läsa mer om djur, vapen styckning och typer av jakt
+            </p>
+
+
+        </div>
+
+       
+        
+
+
+    </div>
+
+    <div style="display: flex; justify-content: center; height: 3vh; background-color: gray; margin-top: 15px; margin-bottom: 2vh;" ></div>
+
+
+    <div class="storesection">
+
+        <div class="storetext">
+            <img src="images/shopicon.png" alt="">
+            <h2>
+                Butiken
+            </h2>
+            <p>
+                I butiken kan man köpa produkter som kan vara till hjälp vid jakt. Detta är produkter som eventuella inte är nödvändiga men kan vara till stor hjälp ute i skogen.
+            </p>
+
+
+        </div>
+
+        <h1 style="position: absolute; background-color: black; right: 4%; top: 195%; color: white; padding: 1%; border-radius: 5px;">
+            Produkt Butiken
+        </h1>
+
+        <div class="storepicture">
+            <a href="store.html">
+                Utforska
+            </a>
+        </div>
+
+        
+
+       
+        
+
+
+    </div>
+
+    <div class="footer">
+        <div style="display: flex; flex-direction: column;">
+            <div>
+                <img src="images/HjortIcon.png" alt="hjort" style="width: 60px; height: 60px;">
+                <h1 style="display: flex; flex-direction: column;">
+                    Jaktstugan©
+
+                    <div style="display: flex; flex-direction: column; ">
+
+                    </div>
+                </h1>
+            </div>
+            <div class="footerNotesHolder">
+                <ul class="footerNotes">
+                    <h1>
+                        Kontakt
+                    </h1>
+                    <h2>
+                        jaktstugan@gmail.com
+                    </h2>
+                    <h2>
+                        +46 76 856 27 85
+                    </h2>
+                    <h2>
+                        Uppsala Polacksback 72 
+                    </h2>
+                </ul>
+                <ul class="footerNotes">
+                    <h1>Om Oss</h1>
+                    <h3 onclick="Book()">Läroboken</h3>
+                    <h3 onclick="Store()">Affär</h3>
+                </ul>
+
+                <ul class="footerNotes">
+                    <h1>Skribent</h1>
+                    <h2>Edward Lunden</h2>
+                    <h2>Källor</h2>
+                </ul>
+
+            </div>
+        </div>
+        <div>
+            <div class="footerimg">
+
+            </div>
+        </div>
+        
+    </div>
+
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
