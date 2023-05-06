@@ -84,7 +84,7 @@
         "Subject": "Kalibrar",
         "header" : "Kalibrar",
         "info": "Kalibrar är måtten på skott och hylsor till skyttevapen. Det är dessa som bestämmer klassen på ett vapen beronde på vad vapnet kan skjuta för kulor. Större kullor har mer anslagsenergi och högre utgångshastighet då det får plats mera krut i hylsan. Vilka kalibrar som är lagliga måste tittas upp innan då vissa ammunitioner är militärklassade och får inte anvädas för jakt.",
-        "image": "images/kalibrar.jpg",
+        "image": "images/Kalibrar.jpg",
         "header2" : "",
         "info2": "",
         "image2": "images/kaliberkula.jpg"
@@ -96,7 +96,7 @@
         "image": "images/licenser.jpg",
         "header2" : "Hur man ska göra",
         "info2": "När du ska fylla i en ansökan om vapen licens vill polisen veta till vilket syfte. Vilken kaliber och serienummer på vapnet. Detta är för att polisen ska kunna spåra vapen innehavaren om den inte sköter sig. Det är samma sak för om du ska sälja ett vapen så ska du ha koll på att den du säljer till har vapen licens för det vapnet. Detta är för att du inte ska bli ansvarig för vad den personen gör med vapnet.",
-        "image2": "images/kalibrar.jpg"
+        "image2": "images/Kalibrar.jpg"
     }
     
 ]
