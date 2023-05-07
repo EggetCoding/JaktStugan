@@ -414,7 +414,7 @@ body{
     align-items: flex-end;
     justify-content: flex-end;
     margin: 3.5%;
-    height: 60vh;
+    height: 450px;
     width: 250px;
     background-color: rgb(218, 142, 0);
 }
