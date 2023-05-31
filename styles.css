@@ -462,11 +462,17 @@ body{
         width: 100px; 
     }
         
+}
+
+@media only screen and (max-width: 400px) {
+    #myInput {
+        width: 40px; 
     }
+}
 @media only screen and (max-width: 300px) 
 {
     #myInput {
-        width: 50px; 
+        width: 30px; 
         font-size: 5px; 
         padding: 2px 2px 2px 4px; 
         margin-bottom: 5px; 
