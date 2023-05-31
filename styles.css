@@ -468,6 +468,9 @@ body{
     height: 100%;
     padding-bottom: 4%;
     text-align: right;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
     
 }
 
@@ -475,9 +478,7 @@ body{
 
 .product div{
     width: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    
     height: 80%;
 }
 
