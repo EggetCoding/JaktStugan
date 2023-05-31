@@ -19,6 +19,7 @@ body{
 }
 
 .topsection div{
+    margin-right: 30px;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
@@ -67,12 +68,13 @@ body{
 
 #myInput {
 
-    width: 10%; /* Full-width */
+    width: 200px; /* Full-width */
     font-size: 12px; /* Increase font-size */
     padding: 12px 20px 12px 20px; /* Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
     margin-bottom: 12px; /* Add some space below the input */
     border-radius: 3px;
+    margin-top: 10px;
 
     
 }
@@ -456,8 +458,37 @@ body{
         font-size: 15px;
     }
     .footerimg { display: none; }
+    #myInput {
+        width: 100px; 
+    }
         
     }
+@media only screen and (max-width: 300px) 
+{
+    #myInput {
+        width: 50px; 
+        font-size: 5px; 
+        padding: 2px 2px 2px 4px; 
+        margin-bottom: 5px; 
+        border-radius: 3px;
+        margin-top: 25px;
+    }
+    .topsection div{
+        font-size: 5px;
+        margin-right: 10px;
+    }
+    #myUL li a {
+        padding: 4px;
+        font-size: 4px;     
+    }
+    .booksection h1{
+        font-size: 20px;
+
+    }
+    .storesection h1{
+        font-size: 20px;
+    }
+}
 
 .product{
     display: flex;
