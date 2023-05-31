@@ -1,5 +1,6 @@
 window.onload = hide;
 
+//Göm sökförlag
 function hide(){
     var ul = document.getElementById("myUL");
     var li = ul.getElementsByTagName('li');
@@ -8,6 +9,8 @@ function hide(){
     }
 }
 
+
+//Byta sidor
 function Home(){
     window.location.href = "index.html";
 }
@@ -41,16 +44,17 @@ function ChangeSub(id){
 }
 
 
+
 function myFunction() 
 {
-  // Declare variables
+
   var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById('myInput');
   filter = input.value.toUpperCase();
   ul = document.getElementById("myUL");
   li = ul.getElementsByTagName('li');
 
-  // Loop through all list items, and hide those who don't match the search query
+  
   for (i = 0; i < li.length; i++) 
   {
     if(filter == "")

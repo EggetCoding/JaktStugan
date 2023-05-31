@@ -42,7 +42,7 @@
                 <li onclick="ChangeSub(5)"><a href="#">Jakttider</a></li>
                 <li onclick="ChangeSub(6)"><a href="#">Hundar</a></li>
 
-                <li onclick="ChangeSub(7)"><a >Slakt instruktioner</a></li>
+                <li onclick="ChangeSub(7)"><a >Instruktioner</a></li>
                 <li onclick="ChangeSub(8)"><a href="#">Risker för slakt</a></li>
                 <li><a href="store.html">Affär</a></li>
             </ul>
@@ -69,9 +69,7 @@
 
     </div>
 
-
-        
-        <!--Information text-->
+        <!--Innerhtml ändras beroende på id i url-->
         <div class="jsonCode">
             <div class="infoheader">
                 <div>
@@ -112,7 +110,9 @@
             <div>
                 <img src="images/HjortIcon.png" alt="hjort" style="width: 60px; height: 60px;">
                 <div style="display: flex; flex-direction: column; font-size: 40px;">
-                    Jaktstugan
+                    <h2 class="FootHeader">
+                        Jaktstugan
+                    </h2>
 
                     <div style="display: flex; flex-direction: column; ">
 
@@ -160,6 +160,7 @@
 
     <script>
 
+        //Hämta id från url och använd den för att hämta rätt json data
 
         function getParameter(parameter){
             let parameters = new URLSearchParams(window.location.search);
@@ -192,6 +193,7 @@
 
         window.onload = hide;
 
+//Göm sökförlag
 function hide(){
     var ul = document.getElementById("myUL");
     var li = ul.getElementsByTagName('li');
@@ -200,6 +202,7 @@ function hide(){
     }
 }
 
+//Byta sidor
 function Home(){
     window.location.href = "index.html";
 }
@@ -238,14 +241,12 @@ function ChangeSub(id){
 
 
 function myFunction() {
-  // Declare variables
   var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById('myInput');
   filter = input.value.toUpperCase();
   ul = document.getElementById("myUL");
   li = ul.getElementsByTagName('li');
 
-  // Loop through all list items, and hide those who don't match the search query
   for (i = 0; i < li.length; i++) 
   {
     if(filter == "")
